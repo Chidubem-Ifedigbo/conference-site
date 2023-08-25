@@ -1,7 +1,7 @@
 import React from "react";
 import SignMeUp from './SignMeUp'
 
-const Header = () => {
+export const Header = () => {
 
     const signupCallBack = (email) => {
         return console.log(`sign up called with email ${email}`)
@@ -19,7 +19,7 @@ const Header = () => {
                         <lmg src="/static/SVCClogo.png" />
                     </div>
                     <div className="row col-12 text-lg-right">
-                        <SignMeUp signupCallBack={signupCallBack} />
+                        <SignMeUp signupCallBack = {signupCallBack} />
                     </div>
                 </div>
             </div>
@@ -27,4 +27,4 @@ const Header = () => {
     );
 }
  
-export default Header;
+;

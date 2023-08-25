@@ -7,7 +7,7 @@ export const Menu = () => {
                 <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
                     <div className="navbar">
                         <ul className="navbar-nav">
-                            l<li className="nav-item">
+                            <li className="nav-item">
                                 <Link href= '/'>
                                     <a className="nav-link">Home</a>
                                 </Link>

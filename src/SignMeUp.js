@@ -1,8 +1,9 @@
 import React, {useState} from "react";
 
+
+const SignMeUp = ( {signupCallBack} ) => {
 const [email, setEmail] = useState("")
 
-const SignMeUp = ( signupCallBack ) => {
     return ( 
         <div className="container">
             <div>

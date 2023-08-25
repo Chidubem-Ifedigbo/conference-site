@@ -1,6 +1,6 @@
 
-import React, { useEffect, useState } from 'react';
-import App from '../src/App';
+import React from 'react';
+import App from '../src/App.js';
 
 const Index = () => {
   return <App pageName = 'Home' />;

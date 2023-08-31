@@ -12,13 +12,13 @@ const speakersReducer = (state,action) =>{
         return action.data;
       }
       case "favorite": {
-        return updateFavorite(true)
+        return updateFavorite(true);
       };
       case "unfavorite": {
-        return updateFavorite(false)
+        return updateFavorite(false);
       };
       default: 
-        return state
+        return state;
     }
   }
 
